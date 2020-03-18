@@ -27,40 +27,39 @@
 
         <!-- ここでは、検索結果を一覧で表示する(後でソースコードを修正し、ページネーションにする) -->
         <!-- 詳細画面へのURLを必ず設置する -->
-        <div class="card-group mx-auto mt-3 w-75">
+        <div class="card-group mx-auto mt-3 mb-3 w-75">
             <div class="card  border-primary">
                 <!-- この画像は、サンプルなので本の画像を取得したら本の画像に変更する -->
                 <img class="card-img-top" src="image/sample.jpg">
                 <div class="card-body">
                     <!-- タイトル、テキストも取得した本のタイトル、テキストに変更する -->
-                    <h5 class="card-title">本のタイトル</h5>
+                    <h5 class="card-title text-center">本のタイトル</h5>
                     <p class="card-text">本の説明文を表示ここに本の説明部分を表示していく</p>
                 </div>
                 <div class="card-footer">
-                    <!-- 取得した、時間を表示する -->
-                    <small class="text-muted">○○分前に更新</small>
+                    <a class="btn btn-outline-primary d-block" href="#" role="button">詳細画面へ</a>
                 </div>
             </div>
 
             <div class="card border-primary">
                 <img class="card-img-top" src="image/sample.jpg">
                 <div class="card-body">
-                    <h5 class="card-title">本のタイトル2</h5>
+                    <h5 class="card-title text-center">本のタイトル2</h5>
                     <p class="card-text">本の説明文を表示2別の本の説明部分を表示するようにする</p>
                 </div>
                 <div class="card-footer">
-                    <small class="text-muted">○○分前に更新2</small>
+                    <a class="btn btn-outline-primary d-block" href="#" role="button">詳細画面へ</a>
                 </div>
             </div>
 
             <div class="card  border-primary">
                 <img class="card-img-top" src="image/sample.jpg">
                 <div class="card-body">
-                    <h5 class="card-title">本のタイトル3</h5>
+                    <h5 class="card-title text-center">本のタイトル3</h5>
                     <p class="card-text">本の説明文を表示3上記と同じようにして表示していく</p>
                 </div>
                 <div class="card-footer">
-                    <small class="text-muted">○○分前に更新3</small>
+                    <a class="btn btn-outline-primary d-block" href="#" role="button">詳細画面へ</a>
                 </div>
             </div>
         </div>

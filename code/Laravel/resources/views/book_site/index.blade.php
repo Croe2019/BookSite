@@ -29,6 +29,8 @@
                 ここでは、データベースから取得した本のデータを表示し、詳細画面のURLを設置する(後でソースコードを修正) -->
         <div class="card-group mx-auto mt-3 w-75">
             <div class="card  border-primary">
+                <!-- この画像は、サンプルなので本の画像を取得したら本の画像に変更する -->
+                <img class="card-img-top" src="image/sample.jpg">
                 <div class="card-body">
                     <h5 class="card-title">本のタイトル</h5>
                     <p class="card-text">本の説明文を表示ここに本の説明部分を表示していく</p>
@@ -39,6 +41,8 @@
             </div>
 
             <div class="card border-primary">
+                <!-- この画像は、サンプルなので本の画像を取得したら本の画像に変更する -->
+                <img class="card-img-top" src="image/sample.jpg">
                 <div class="card-body">
                     <h5 class="card-title">本のタイトル2</h5>
                     <p class="card-text">本の説明文を表示2別の本の説明部分を表示するようにする</p>
@@ -49,6 +53,8 @@
             </div>
 
             <div class="card  border-primary">
+                <!-- この画像は、サンプルなので本の画像を取得したら本の画像に変更する -->
+                <img class="card-img-top" src="image/sample.jpg">
                 <div class="card-body">
                     <h5 class="card-title">本のタイトル3</h5>
                     <p class="card-text">本の説明文を表示3上記と同じようにして表示していく</p>

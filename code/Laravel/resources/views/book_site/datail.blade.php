@@ -25,14 +25,42 @@
             </nav>
         </nav>
 
-        <div class="card-group mx-auto mt-3 w-50">
-            <div class="card border-primary">
-                <!-- 本の情報を取得したら、取得した本の画像を表示する -->
-                <img class="card-img-top mx-auto" src="image/sample.jpg"  style="height: 200px; width: 200px;">
-                <div class="card-body">
-                    <!-- 取得した本のタイトル、説明文を表示する -->
-                    <h5 class="card-title text-center">本のタイトル</h5>
-                    <p class="card-text text-center">本の説明文が入ります。情報を取得したら、取得した説明文が入ります。</p>
+        <!-- 表示のデザインはこのままにし、 
+        　　　本の情報は取得したものを表示するようにする為、現在はサンプルとして表示する(※必ず、取得した情報を表示すること-->
+        <div class="card mt-3 mb-3">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <img src="image/sample.jpg" class="card-img" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">DirectX 12の魔導書 3Dレンダリングの基礎からMMDモデルを踊らせるまで (日本語) 単行本（ソフトカバー） – 2020/2/13</h5>
+                        <p class="card-text">川野 竜一(著)</p>
+                        <h6 class="card-text">商品の説明</h6>
+                        <p class="card-text">複雑なライブラリも、一歩ずつ進めれば怖くない。</p>
+                        <p class="card-text">
+                            「DirectX 9～11に比べて超高機能／高性能だと聞いたけれど、
+　                           複雑すぎて何をしているかわからない」
+
+                            「ゲームエンジンのメンテナンスをするために、最新のDirectXの基礎を知りたい」
+
+                            「フルスクラッチでMMDのモデルを表示／アニメーションさせてみたい」
+
+                            そんなC++プログラマーに向けた、DirectX 12の「導きの書」がついに登場！<br>
+
+                            ◆3Dグラフィックスの基礎<br>
+                            ◆グラフィックスパイプラインとステージ<br>
+                            ◆PMDデータの読み込みと描画<br>
+                            ◆VMDデータの読み込みとアニメーション再生<br>
+                            ◆IK<br>
+                            ◆ポストエフェクト<br>
+
+                            など、本当に知りたかったDirectX 12プログラミングの基本がこの1冊に！！
+
+                            DirectXは初めてという人も、DirectX 9や10で止まってしまっている人も、
+                            本書を心強い相棒にして、挑戦の旅へと出掛けましょう！
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
