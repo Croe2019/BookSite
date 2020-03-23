@@ -25,6 +25,14 @@
             </nav>
         </nav>
 
+        <button type="button" class="btn btn-outline-primary btn-lg mx-auto d-block mt-3" style="width:300px">#タグ</button>
+
+       <ul class="nav justify-content-center nav-pills mt-3 mb-3">
+           <li class="nav-item"><a class="nav-link active" href="#">新着</a></li>
+           <li class="nav-item"><a class="nav-link" href="#">過去一週間</a></li>
+           <li class="nav-item"><a class="nav-link" href="#">過去一カ月</a></li>
+       </ul>
+
         <!-- トレンド又は、おすすめの本の一覧を表示
                 ここでは、データベースから取得した本のデータを表示し、詳細画面のURLを設置する(後でソースコードを修正) -->
         <div class="card-group mx-auto mt-3 mb-3 w-75">

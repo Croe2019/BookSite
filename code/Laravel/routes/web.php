@@ -18,6 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('/home', 'HomeController@index')->name('book_site.index');
-Route::get('/list', 'ListController@index')->name('book_site.list');
 // 本の情報を取得したら、URLを変更する
 Route::get('/detail', 'DetailController@book_data')->name('book_site.detail');
